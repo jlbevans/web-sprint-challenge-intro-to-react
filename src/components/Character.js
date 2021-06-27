@@ -27,7 +27,7 @@ const Character = ({ name, gender, birth_year, hair, eyes, skin, weight, height 
 }
 
 const Container = styled.div`
-    background-color: #e6cc87;
+    background-color: #e8e7e3;
     display: inline-block;
     padding: 1.25%;
     margin: 1%;
@@ -35,6 +35,7 @@ const Container = styled.div`
     width: 80%;
     border: .125rem;
     border-radius: 12px;
+    box-shadow: 5px 2px 2px black;
 `
 
 const Head = styled.h1`
@@ -50,13 +51,15 @@ const Head = styled.h1`
 const SubHead = styled.h3`
     font-size: 1.25rem;
     text-align: left;
-    margin: 1%
+    margin: 1%;
+    color: red;
 `
 
 const DetailsDiv = styled.div`
     font-size: 0.75rem;
     text-align: center;
-    margin: 1%
+    margin: 1%;
+    display: flex;
 `
 
 const ListItem = styled.li`

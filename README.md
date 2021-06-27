@@ -32,11 +32,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  It merges the gap between css, html, and js, making css and html able to be coded while using JS. Also it helps to essentially create templates, that you can feed data to create the specific elements you would like on the app.
+
 1. Describe component state.
+
+  It is the declared boolean value of the component.
 
 1. Describe props.
 
+essentially the parent commands, you can pass whatever variables, with whatever values down to be used in the child component.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Something that re-renders whatever promise you append to it and it is also depending on a certain variable, or when selected to no variable, it re-renders whenever any change is made.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
